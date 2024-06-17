@@ -4,7 +4,7 @@ atomicwrites==1.4.0
     # via -r tools/accuracy_checker/requirements-test.in
 attrs==21.2.0
     # via pytest
-certifi==2021.5.30
+certifi==2023.7.22
     # via requests
 charset-normalizer==2.0.4
     # via requests
@@ -28,7 +28,7 @@ filelock==3.0.12
     #   transformers
 huggingface-hub==0.0.16
     # via transformers
-idna==3.2
+idna==3.7
     # via requests
 imagecodecs==2020.5.30 ; python_version < "3.7"
     # via -r tools/accuracy_checker/requirements.in
@@ -41,7 +41,7 @@ importlib-metadata==4.8.1
     #   pluggy
     #   pytest
     #   transformers
-joblib==1.0.1
+joblib==1.2.0
     # via
     #   nltk
     #   sacremoses
@@ -96,7 +96,7 @@ pillow==8.3.2
     #   scikit-image
 pluggy==0.13.1
     # via pytest
-py==1.10.0
+py==1.11.0
     # via pytest
 py-cpuinfo==8.0.0
     # via -r tools/accuracy_checker/requirements.in
@@ -172,7 +172,7 @@ tqdm==4.62.2
     #   nltk
     #   sacremoses
     #   transformers
-transformers==4.10.0
+transformers==4.38.0
     # via -r tools/accuracy_checker/requirements.in
 typing-extensions==3.10.0.2
     # via
