@@ -6,7 +6,7 @@ attrs==21.2.0
     # via pytest
 audioread==2.1.9
     # via librosa
-certifi==2021.5.30
+certifi==2023.7.22
     # via requests
 cffi==1.14.6
     # via soundfile
@@ -20,7 +20,7 @@ flake8==3.9.2
     # via motmetrics
 flake8-import-order==0.18.1
     # via motmetrics
-idna==3.2
+idna==3.7
     # via requests
 importlib-metadata==4.8.1
     # via
@@ -29,7 +29,7 @@ importlib-metadata==4.8.1
     #   pytest
 iniconfig==1.1.1
     # via pytest
-joblib==1.0.1
+joblib==1.2.0
     # via
     #   librosa
     #   scikit-learn
@@ -45,7 +45,7 @@ mccabe==0.6.1
     # via flake8
 motmetrics==1.2.0
     # via -r demos/requirements.txt
-mpmath==1.2.1
+mpmath==1.3.0
     # via sympy
 nibabel==3.2.1
     # via -r demos/requirements.txt
@@ -83,7 +83,7 @@ pooch==1.5.1
     # via librosa
 protobuf==3.17.3
     # via tensorboardx
-py==1.10.0
+py==1.11.0
     # via pytest
 py-cpuinfo==8.0.0
     # via pytest-benchmark
